@@ -87,9 +87,6 @@ jobs:
           folder: repo/target/gh-pages
           clean: true
           single_commit: true
-<<<<<<< Updated upstream
-=======
-
   ## Set up Github Advanced Security ##
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v2
@@ -132,4 +129,3 @@ jobs:
           tags: user/app:latest
           secrets: |
             GIT_AUTH_TOKEN=${{ secrets.MYTOKEN }}
->>>>>>> Stashed changes
