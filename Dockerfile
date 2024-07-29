@@ -58,7 +58,7 @@ RUN echo $NPM_REGISTRY && \
 RUN mvn package -Pjar -DskipTests
 
 # Switch to Normal JRE Stage.
-FROM openjdk:11-jre-slim
+FROM openjdk:23-ea-31-jdk-oraclelinux8
 ARG USER_ID
 ARG USER_NAME
 ARG SOURCE_DIR
